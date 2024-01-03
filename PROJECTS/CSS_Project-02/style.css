@@ -37,3 +37,8 @@ html, body{
     width: 48%;
     background-color: yellow;
 }
+#color{
+    background-color: blue;
+    width: fit-content;
+    padding: 10px 15px;
+}
