@@ -15,13 +15,11 @@ body {
 #main {
   height: 100%;
   width: 100%;
-  /* background-color: red; */
 }
 
 #nav {
   height: 70px;
   width: 100%;
-  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -103,7 +101,6 @@ body {
   font-size: 26px;
   padding-right: 30px;
   padding-left: 60px;
-  /* font-family: "Gillroy"; */
 }
 .element span {
   font-weight: 300;
@@ -117,8 +114,6 @@ body {
   height: 60%;
   background-color: blueviolet;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   overflow-x: auto;
 }
 #img-content::-webkit-scrollbar {
