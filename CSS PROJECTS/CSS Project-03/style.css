@@ -81,22 +81,13 @@ body {
   font-family: "Gilroy";
 }
 #text-content::-webkit-scrollbar {
-  /* display: none; */
   background-color: transparent;
   height: 5px;
-  /* scrollbar-width: 10px; */
-  cursor: pointer;
 }
 #text-content::-webkit-scrollbar-thumb {
   background-color: orangered;
-  scrollbar-width: 10px;
-  height: 10px;
 }
-#text-content::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
-  background-color: red;
-}
+
 .element {
   height: 100%;
   width: 60%;
