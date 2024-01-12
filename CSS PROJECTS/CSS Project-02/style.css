@@ -145,7 +145,6 @@ body {
 #rotated {
   position: absolute;
   left: -10%;
-  /* background-color: red; */
   bottom: 1%;
   rotate: -90deg;
   transform-origin: 0 0;
