@@ -87,13 +87,11 @@ body {
   /* padding: 50%; */
   height: 100%;
   width: 40%;
-  /* background-color: yellow; */
   position: relative;
 }
 #right-top {
   height: 50px;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,6 +115,7 @@ body {
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
 }
+/* TO MAKE THE RATING STAR GOLD */
 /* .rating i{
     color: gold;
 } */
