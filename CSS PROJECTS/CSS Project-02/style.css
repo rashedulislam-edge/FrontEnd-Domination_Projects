@@ -12,7 +12,6 @@ body {
 #main {
   height: 130%;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: flex-end;
   /* justify-content: space-between; */
@@ -23,7 +22,6 @@ body {
 #left {
   height: 100%;
   width: 45%;
-  /* background-color: green; */
   /* padding: 20px; */
   display: flex;
   flex-direction: column;
@@ -42,7 +40,6 @@ body {
 }
 
 #color {
-  /* background-color: blue; */
   width: fit-content;
   padding: 10px 15px;
   display: flex;
