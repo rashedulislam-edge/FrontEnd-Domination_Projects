@@ -1,11 +1,86 @@
+@font-face {
+  font-family: "monument";
+  src: url(fonts/MonumentExtended-Regular.otf);
+  src: url(Fonts/MonumentExtended-Ultrabold.otf);
+  /* src: url(Fonts/Gilroy-ExtraBold.otf); */
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Gilroy";
+  /* font-family: "monument"; */
 }
 html,
 body {
   height: 100%;
   width: 100%;
+}
+body {
+  background-color: rgb(248, 248, 248);
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0.1px;
+}
+#nav {
+  height: 13vh;
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#nav h1 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  letter-spacing: -1px;
+  position: relative;
+  font-family: "monument";
+}
+#nav h1::after {
+  content: "©";
+  font-family: gilroy;
+  font-weight: 500;
+  font-size: 22px;
+  position: absolute;
+  top: 22%;
+  right: 9%;
+}
+#nav h1::before {
+  content: "model management";
+  font-family: gilroy;
+  font-weight: 500;
+  color: #504f4f;
+  font-size: 10.5px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  bottom: 18%;
+  right: 18%;
+}
+#nav h2 {
+  height: 100%;
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  font-size: 22px;
+  font-weight: 600;
+}
+#nav h2:nth-last-child(1) {
+  width: 10%;
+  padding-right: 30px;
+  border-right: 1px solid white;
+}
+#nav h2:nth-last-child(2) {
+  width: 26%;
 }
