@@ -186,3 +186,55 @@ body {
     transform: translateX(-100%);
   }
 } */
+
+#alphabet {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-around; */
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  gap: 1vw;
+}
+#alpha-section {
+  height: 100%;
+  width: 100%;
+  padding: 0vw 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8vw;
+}
+#alphabet h5 {
+  font-size: 1.7vw;
+  font-weight: 600;
+  font-style: italic;
+  margin-right: 1vw;
+  letter-spacing: 2px;
+  text-decoration: underline;
+
+  /* font-family: "monument"; */
+}
+#alphabet h6 {
+  font-size: 1vw;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0px 2px;
+  padding: 0.6vw 0.8vw;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+#alphabet h6:hover {
+  border: 1.5px solid #000;
+}
+
+#Page2 {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
