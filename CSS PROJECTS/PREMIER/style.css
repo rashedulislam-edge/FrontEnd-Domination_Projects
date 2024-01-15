@@ -331,18 +331,24 @@ body {
   object-fit: cover;
   object-position: 10% 30%;
 }
-#page-4 {
+#page4 {
   height: 100vh;
   width: 100%;
   /* background-color: red; */
+  padding: 2vw 4vw 0vw 4vw;
   margin-top: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#page-4 img {
-  height: 90%;
-  width: 90%;
+#page4 img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   object-position: top;
+}
+#page5{
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
 }
