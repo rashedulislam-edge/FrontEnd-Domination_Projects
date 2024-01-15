@@ -286,10 +286,11 @@ body {
   height: 100vh;
   width: 100%;
   /* background-color: red; */
-  padding: 2vw 4vw 2vw 4vw;
+  padding: 2vw 4vw 4vw 4vw;
 }
 #page3 h1 {
   font-family: "monument";
+  padding-bottom: 20px;
 }
 #page3-section {
   height: 100%;
@@ -322,11 +323,26 @@ body {
 #page3-right {
   height: 100%;
   width: 60%;
-  background-color: green;
+  /* background-color: green; */
 }
 #page3-right img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: 10% 30%;
+}
+#page-4 {
+  height: 100vh;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page-4 img {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  object-position: top;
 }
