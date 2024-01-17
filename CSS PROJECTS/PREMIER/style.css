@@ -501,13 +501,13 @@ body {
   object-position: 0% 100%;
 }
 #footer {
-  height: 45vh;
+  height: 40vh;
   width: 100%;
   /* background-color: yellowgreen; */
 }
 
 #nav-footer {
-  height: 80%;
+  height: 85%;
   width: 100%;
   /* margin-bottom: 100px; */
   display: flex;
